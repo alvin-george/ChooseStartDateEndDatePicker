@@ -12,6 +12,10 @@
 		18CFB7A91F3D96A1007145D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CFB7A71F3D96A1007145D9 /* Main.storyboard */; };
 		18CFB7AB1F3D96A1007145D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CFB7AA1F3D96A1007145D9 /* Assets.xcassets */; };
 		18CFB7AE1F3D96A1007145D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CFB7AC1F3D96A1007145D9 /* LaunchScreen.storyboard */; };
+		18CFB7B61F3D96AD007145D9 /* ChooseDatesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CFB7B51F3D96AD007145D9 /* ChooseDatesController.swift */; };
+		18CFB7B81F3DA2A6007145D9 /* EZTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CFB7B71F3DA2A6007145D9 /* EZTextField.swift */; };
+		18CFB7BA1F3DA2BE007145D9 /* EZButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CFB7B91F3DA2BE007145D9 /* EZButton.swift */; };
+		18CFB7BC1F3DA349007145D9 /* UIAppExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CFB7BB1F3DA349007145D9 /* UIAppExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		18CFB7AA1F3D96A1007145D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18CFB7AD1F3D96A1007145D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18CFB7AF1F3D96A1007145D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18CFB7B51F3D96AD007145D9 /* ChooseDatesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseDatesController.swift; sourceTree = "<group>"; };
+		18CFB7B71F3DA2A6007145D9 /* EZTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EZTextField.swift; sourceTree = "<group>"; };
+		18CFB7B91F3DA2BE007145D9 /* EZButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EZButton.swift; sourceTree = "<group>"; };
+		18CFB7BB1F3DA349007145D9 /* UIAppExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIAppExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,10 @@
 		18CFB7A21F3D96A1007145D9 /* StartDateEndDatePicker */ = {
 			isa = PBXGroup;
 			children = (
+				18CFB7B51F3D96AD007145D9 /* ChooseDatesController.swift */,
+				18CFB7BB1F3DA349007145D9 /* UIAppExtensions.swift */,
+				18CFB7B71F3DA2A6007145D9 /* EZTextField.swift */,
+				18CFB7B91F3DA2BE007145D9 /* EZButton.swift */,
 				18CFB7A31F3D96A1007145D9 /* AppDelegate.swift */,
 				18CFB7A51F3D96A1007145D9 /* ViewController.swift */,
 				18CFB7A71F3D96A1007145D9 /* Main.storyboard */,
@@ -136,8 +148,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18CFB7B81F3DA2A6007145D9 /* EZTextField.swift in Sources */,
+				18CFB7BC1F3DA349007145D9 /* UIAppExtensions.swift in Sources */,
 				18CFB7A61F3D96A1007145D9 /* ViewController.swift in Sources */,
 				18CFB7A41F3D96A1007145D9 /* AppDelegate.swift in Sources */,
+				18CFB7BA1F3DA2BE007145D9 /* EZButton.swift in Sources */,
+				18CFB7B61F3D96AD007145D9 /* ChooseDatesController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
