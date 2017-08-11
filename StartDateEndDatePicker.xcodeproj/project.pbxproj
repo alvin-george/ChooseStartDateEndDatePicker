@@ -62,18 +62,50 @@
 		18CFB7A21F3D96A1007145D9 /* StartDateEndDatePicker */ = {
 			isa = PBXGroup;
 			children = (
-				18CFB7B51F3D96AD007145D9 /* ChooseDatesController.swift */,
-				18CFB7BB1F3DA349007145D9 /* UIAppExtensions.swift */,
-				18CFB7B71F3DA2A6007145D9 /* EZTextField.swift */,
-				18CFB7B91F3DA2BE007145D9 /* EZButton.swift */,
 				18CFB7A31F3D96A1007145D9 /* AppDelegate.swift */,
-				18CFB7A51F3D96A1007145D9 /* ViewController.swift */,
-				18CFB7A71F3D96A1007145D9 /* Main.storyboard */,
+				18CFB7C21F3DB193007145D9 /* Helper */,
+				18CFB7BF1F3DB167007145D9 /* CustomUIElement */,
+				18CFB7C01F3DB17A007145D9 /* Controller */,
+				18CFB7C11F3DB181007145D9 /* View */,
 				18CFB7AA1F3D96A1007145D9 /* Assets.xcassets */,
-				18CFB7AC1F3D96A1007145D9 /* LaunchScreen.storyboard */,
 				18CFB7AF1F3D96A1007145D9 /* Info.plist */,
 			);
 			path = StartDateEndDatePicker;
+			sourceTree = "<group>";
+		};
+		18CFB7BF1F3DB167007145D9 /* CustomUIElement */ = {
+			isa = PBXGroup;
+			children = (
+				18CFB7B71F3DA2A6007145D9 /* EZTextField.swift */,
+				18CFB7B91F3DA2BE007145D9 /* EZButton.swift */,
+			);
+			name = CustomUIElement;
+			sourceTree = "<group>";
+		};
+		18CFB7C01F3DB17A007145D9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18CFB7A51F3D96A1007145D9 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		18CFB7C11F3DB181007145D9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18CFB7AC1F3D96A1007145D9 /* LaunchScreen.storyboard */,
+				18CFB7A71F3D96A1007145D9 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		18CFB7C21F3DB193007145D9 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				18CFB7B51F3D96AD007145D9 /* ChooseDatesController.swift */,
+				18CFB7BB1F3DA349007145D9 /* UIAppExtensions.swift */,
+			);
+			name = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
